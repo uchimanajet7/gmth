@@ -1,0 +1,16 @@
+{
+    "Page": true,
+    "CSS": "style.css",
+    "PreCommands": [["textlint", "%INPUT_PATH%"]],
+	"PostCommands": [["open", "%OUTPUT_PAGE_PATH%"]],
+	"ReplaceTexts": [
+        "<blockquote",
+        "<blockquote class=\"is-colored\"",
+        "<ol",
+        "<ol class=\"list-colored\"",
+        "<img",
+        "<img class=\"image-with-border\"",
+        "<table",
+        "<table class=\"table table--bordered table--color-header\""
+    ]
+}
