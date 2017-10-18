@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"./cmd"
+	"github.com/uchimanajet7/gmth/cmd"
 )
 
 func main() {
