@@ -25,6 +25,10 @@ var RootCmd = &cobra.Command{
 			return nil
 		}
 
+		if _, err := getConfig(); err != nil {
+			log.Fatalf("\nCan't read config file: %s\n\n", err)
+		}
+
 		if rootMarkdownFile == "" {
 			// cmd.Help()
 			return errors.New("Please specify flag [--file] required markdown file.\n")
@@ -41,12 +45,5 @@ var RootCmd = &cobra.Command{
 }
 
 func init() {
-	cobra.OnInitialize(initRootConfig)
 	RootCmd.PersistentFlags().StringVarP(&rootMarkdownFile, "file", "f", "", "Specify markdown file. [required]")
-}
-
-func initRootConfig() {
-	if _, err := getConfig(); err != nil {
-		log.Fatalf("\nCan't read config file: %s\n\n", err)
-	}
 }
