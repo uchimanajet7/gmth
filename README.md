@@ -42,7 +42,7 @@ However, setting is necessary to execute.
 
 1. Execution settings are done with `config.json` file.
 
-```sh
+```json
 {
     "Page": true,
     "CSS": "style.css",
@@ -84,6 +84,7 @@ However, setting is necessary to execute.
 	- `ReplaceTexts`: Array
 		- String List a list to replace.
 
+Current specification is a specification that continues execution even if there is an error in command execution before / after change.
 
 More information, refer to the help command.
 
