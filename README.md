@@ -113,7 +113,7 @@ Use "gmth [command] --help" for more information about a command.
 
 Please select the package file for your own environment from the releases page, download and unpack it, and put the executable file in a place where included in PATH.
 
-- Releases · uchimanajet7/ca-cli
+- Releases · uchimanajet7/gmth
 	- https://github.com/uchimanajet7/gmth/releases
 
 If you build from source yourself.
