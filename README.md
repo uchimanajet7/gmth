@@ -127,6 +127,8 @@ $ make
 ## Author
 [uchimanajet7](https://github.com/uchimanajet7)
 
+- textlintを使ってAWS用語をチェックしてみる #aws #textlint #golang - uchimanajet7のメモ
+	- http://uchimanajet7.hatenablog.com/entry/2017/10/24/085901
 
 ## Licence
 [MIT License](https://github.com/uchimanajet7/gmth/blob/master/LICENSE)
