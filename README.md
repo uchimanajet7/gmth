@@ -113,7 +113,7 @@ Use "gmth [command] --help" for more information about a command.
 
 Please select the package file for your own environment from the releases page, download and unpack it, and put the executable file in a place where included in PATH.
 
-- Releases · uchimanajet7/ca-cli
+- Releases · uchimanajet7/gmth
 	- https://github.com/uchimanajet7/gmth/releases
 
 If you build from source yourself.
@@ -127,6 +127,8 @@ $ make
 ## Author
 [uchimanajet7](https://github.com/uchimanajet7)
 
+- textlintを使ってAWS用語をチェックしてみる #aws #textlint #golang - uchimanajet7のメモ
+	- http://uchimanajet7.hatenablog.com/entry/2017/10/24/085901
 
 ## Licence
 [MIT License](https://github.com/uchimanajet7/gmth/blob/master/LICENSE)
